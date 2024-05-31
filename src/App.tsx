@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Button from "@mui/material/Button";
 import { Box, TextField } from "@mui/material";
+import Add from './component/Add';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <TextField id="standard-basic" label="Standard" variant="standard" />
 
     </Box>
+
+    <Add/>
     </div>
   );
 }
